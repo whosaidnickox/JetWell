@@ -84,7 +84,7 @@ struct SettingsView: View {
                 
                 VStack(spacing: 16) {
                     SettingsButton(title: "Privacy Policy") {
-                        if let url = URL(string: "https://google.com") {
+                        if let url = URL(string: "https://www.privacypolicies.com/live/c52a0757-4673-46e1-9ce4-0a58c0225ba5") {
                             UIApplication.shared.open(url)
                         }
                     }
